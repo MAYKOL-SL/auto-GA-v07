@@ -37,6 +37,10 @@ public class PropertyAccesor {
         return prop.getProperty("browser");
     }
 
+    public String getBrowserProject() {
+        return prop.getProperty("url-project");
+    }
+
     public static void main(String[] args) {
         System.out.println(PropertyAccesor.getInstance().getURL());
     }
